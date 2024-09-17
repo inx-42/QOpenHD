@@ -7,9 +7,9 @@ import Qt.labs.settings 1.0
 import OpenHD 1.0
 
 import "connect"
-import "credits"
-import "dev"
-import "log"
+//import "credits"
+//import "dev"
+// import "log"
 import "qopenhd_settings"
 import "openhd_settings"
 import "rc"
@@ -207,12 +207,12 @@ Rectangle {
                 }
 
                 // Log
-                ConfigPopupSidebarButton{
-                    id:  log_button
-                    m_icon_text: "\uf0c9"
-                    m_description_text: "Log"
-                    m_selection_index: 3
-                }
+                // ConfigPopupSidebarButton{
+                //     id:  log_button
+                //     m_icon_text: "\uf0c9"
+                //     m_description_text: "Log"
+                //     m_selection_index: 3
+                // }
 
                 // RC
                 ConfigPopupSidebarButton{
@@ -232,20 +232,20 @@ Rectangle {
                 }
 
                 // Credits and copyright
-                ConfigPopupSidebarButton{
-                    id:  credits
-                    m_icon_text: "\uf005"
-                    m_description_text: "Credits"
-                    m_selection_index: 6
-                }
+                //ConfigPopupSidebarButton{
+                    //id:  credits
+                    //m_icon_text: "\uf005"
+                    //m_description_text: "Credits"
+                    //m_selection_index: 6
+                //}
 
                 // Developer stats
-                ConfigPopupSidebarButton{
-                    id:  developerstats
-                    m_icon_text: "\uf0ad"
-                    m_description_text: "DEV"
-                    m_selection_index: 7
-                }
+                //ConfigPopupSidebarButton{
+                    //id:  developerstats
+                    //m_icon_text: "\uf0ad"
+                    //m_description_text: "DEV"
+                    //m_selection_index: 7
+                //}
             }
         }
     }
@@ -292,13 +292,13 @@ Rectangle {
             id: connectPanel
         }
 
-        Credits {
-            id: creditspanel
-        }
+        //Credits {
+            //id: creditspanel
+        //}
 
-        AppDeveloperStatsPanel {
-            id: appDeveloperStatsPanel
-        }
+        //AppDeveloperStatsPanel {
+            //id: appDeveloperStatsPanel
+        //}
 
     }
 }

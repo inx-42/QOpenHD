@@ -33,10 +33,10 @@ ScrollView {
             Layout.leftMargin: 15
             Layout.rightMargin: 15
             Layout.fillWidth: true
-            cardName: qsTr("OpenHD RC")
+            cardName: qsTr("TE-Core RC")
             cardBody:
                 Text {
-                text: qsTr("Here you can view the values which OpenHD reads from your Joystick\n and sends to the FC via wifibroadcast (If enabled)")
+                text: qsTr("Here you can view the values which TE-Core reads from your Joystick\n and sends to the FC via wifibroadcast (If enabled)")
                 height: 24
                 font.pixelSize: 14
                 leftPadding: 12

@@ -30,7 +30,7 @@ Item {
               text: qsTr("About")
           }
           TabButton {
-              text: qsTr("RC over OpenHD - debug")
+              text: qsTr("RC over TE-Core - debug")
           }
           TabButton {
               text: qsTr("FC channels - debug")

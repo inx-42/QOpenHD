@@ -280,9 +280,9 @@ Rectangle {
             id: appSettingsPanel
         }
 
-        LogMessagesStatusView{
-            id: logMessagesStatusView
-        }
+        // LogMessagesStatusView{
+        //     id: logMessagesStatusView
+        // }
 
         RcInfoPanel {
             id: rcInfoPanel

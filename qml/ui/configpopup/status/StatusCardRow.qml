@@ -77,7 +77,7 @@ Item {
             verticalAlignment: Qt.AlignVCenter
             horizontalAlignment: Qt.AlignRight
             font.bold: true
-            font.pixelSize: 18
+            font.pixelSize: 16
             clip: true
             elide: Text.ElideRight
             padding: 4
@@ -94,7 +94,7 @@ Item {
             horizontalAlignment: Qt.AlignLeft
             color: m_has_error ? m_right_text_color_error : m_right_text_color
             visible: !right_part_button.visible
-            font.pixelSize: 18
+            font.pixelSize: 16
             clip: true
             elide: Text.ElideRight
             padding: 4

@@ -55,12 +55,12 @@ Column {
     }
 
     function get_text_qopenhd_openhd_ground_version_mismatch(){
-        var ret="Your version of QOpenHD ["+m_qopenhd_version+"] is incompatible with your ground station OpenHD version: ["+m_version+"]"+
-                "\nPlease update QOpenHD / your Ground station.";
+        var ret="Your version of TE-GCS ["+m_qopenhd_version+"] is incompatible with your ground station TE version: ["+m_version+"]"+
+                "\nPlease update TE-GCS / your Ground station.";
         return ret;
     }
     function get_text_openhd_air_ground_version_mismatch(){
-        var ret="Your version of OpenHD AIR ["+_ohdSystemAir.openhd_version+"] is incompatible with OpenHD GROUND: ["+_ohdSystemGround.openhd_version+"]"+
+        var ret="Your version of TE-AIR ["+_ohdSystemAir.openhd_version+"] is incompatible with TE-GCS: ["+_ohdSystemGround.openhd_version+"]"+
                 "\nPlease update your AIR / GROUND unit.";
         return ret;
     }
@@ -72,7 +72,7 @@ Column {
     }
 
     StatusCardRow{
-        m_left_text: qsTr("OHD Version:")
+        m_left_text: qsTr("TE Version:")
         m_right_text: m_version
         m_has_error: {
             if(m_is_ground){

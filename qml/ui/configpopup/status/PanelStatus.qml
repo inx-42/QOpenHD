@@ -15,7 +15,7 @@ Rectangle {
     width: parent.width
     height: parent.height
 
-    color: "#fff"
+    color: "#1c1919"
 
     function voltage_as_string(voltage_mv){
         if(voltage_mv===0)return "N/A";
@@ -35,7 +35,7 @@ Rectangle {
         id: selectItemInStackLayoutBar
         width: parent.width
         TabButton {
-            text: qsTr("SYSTEM STATUS")
+            text: qsTr("SYSTEM STATS")
         }
     }
 

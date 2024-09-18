@@ -132,7 +132,7 @@ Rectangle {
         anchors.bottomMargin: -1
         anchors.top: parent.top
         anchors.topMargin: 48
-        color: "#333c4c"
+        color: "#17181a"
         radius: 0
         border.width: 1
         border.color: "#4c000000"
@@ -193,7 +193,7 @@ Rectangle {
                 ConfigPopupSidebarButton{
                     id:  openhd_button
                     m_icon_text: "\uf085"
-                    m_description_text: "OpenHD"
+                    m_description_text: "TE-Core"
                     m_selection_index: 1
                 }
 
@@ -202,7 +202,7 @@ Rectangle {
                 ConfigPopupSidebarButton{
                     id:  qopenhd_button
                     m_icon_text: "\uf013"
-                    m_description_text: "OSD"
+                    m_description_text: "TE-OSD"
                     m_selection_index: 2
                 }
 

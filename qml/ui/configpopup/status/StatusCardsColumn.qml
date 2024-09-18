@@ -26,7 +26,7 @@ Row{
         width: m_card_width
         height:m_card_height
         id: groundBox
-        cardName: qsTr("Ground station")
+        cardName: qsTr("TE-GCS")
 
         //visible: _ohdSystemGround.is_alive
         m_style_error: !_ohdSystemGround.is_alive
@@ -44,7 +44,7 @@ Row{
         width: m_card_width
         height:m_card_height
         id: airBox
-        cardName: qsTr("Air unit")
+        cardName: qsTr("TE-AIR")
         //visible: _ohdSystemAir.is_alive
         m_style_error: !_ohdSystemAir.is_alive
 
@@ -62,7 +62,7 @@ Row{
         width: m_card_width
         height:m_card_height
         id: fcBox
-        cardName: qsTr("Flight Controller")
+        cardName: qsTr("TE-AIR2")
         //visible: _fcMavlinkSystem.is_alive
         m_style_error: !_fcMavlinkSystem.is_alive
         cardBody: StatusCardBodyFC{

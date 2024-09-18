@@ -82,7 +82,7 @@ Rectangle {
         anchors.bottomMargin: -1
         anchors.top: parent.top
         anchors.topMargin: -1
-        color: "#fafafa"
+        color: "#615d5d"
 
         clip: true
 
@@ -109,7 +109,7 @@ Rectangle {
                         opacity: .5
                         radius: 5
                         //later this can be changed to focus
-                        color: closeButton.hovered ? "grey" : "white" // I update background color by this
+                        color: closeButton.hovered ? "grey" : "black" // I update background color by this
                     }
                     onClicked: {
                         close_all();
